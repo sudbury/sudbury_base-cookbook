@@ -11,7 +11,7 @@ Base cookbook for sudbury systems
 
 # Recipes
 
-## default
+## default 
 
 Short Description
 
