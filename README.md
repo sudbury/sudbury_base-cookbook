@@ -1,8 +1,6 @@
 # sudbury_base
 
-[![Build Status](https://travis-ci.org/evertrue/sudbury_base-cookbook.svg)](https://travis-ci.org/evertrue/sudbury_base-cookbook)
-
-TODO: Enter the cookbook description here.
+Base cookbook for sudbury systems
 
 # Requirements
 
