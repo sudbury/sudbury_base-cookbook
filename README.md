@@ -33,7 +33,7 @@ Include this recipe in a wrapper cookbook:
 ```
 depends 'sudbury_base', '~> 1.0'
 ```
-
+  
 ```
 include_recipe 'sudbury_base::default'
 ```
