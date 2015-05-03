@@ -21,5 +21,5 @@ network_interfaces 'eth0' do
   gateway node['sudbury_base']['net']['primary']['gateway']
   broadcast node['sudbury_base']['net']['primary']['broadcast']
   network node['sudbury_base']['net']['primary']['network']
-  only_if node['sudbury_base']['net']['primary']['ip']
+  not_if node['sudbury_base']['net']['primary']['ip'].empty?
 end
