@@ -23,3 +23,5 @@ network_interfaces 'eth0' do
   network node['sudbury_base']['net']['primary']['network']
   not_if node['sudbury_base']['net']['primary']['ip'].empty?
 end
+
+include_recipe 'sudbury_base::users'
